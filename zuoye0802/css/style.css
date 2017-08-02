@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: .42rem;
+  background: #f1333f; }
+  header .form {
+    width: 96%;
+    margin: .08rem 2%;
+    position: relative; }
+    header .form .txt {
+      width: 100%;
+      height: .26rem;
+      border: 0;
+      outline: none;
+      border-radius: .13rem;
+      text-indent: .35rem; }
+    header .form i {
+      position: absolute; }
+      header .form i:nth-child(2) {
+        left: .15rem;
+        font-size: .16rem;
+        top: 25%; }
+      header .form i:nth-child(3) {
+        right: .15rem;
+        color: #f1333f;
+        font-size: .2rem;
+        top: 18%; }
+
+section {
+  flex: 1;
+  overflow-y: scroll; }
+  section .nav-list {
+    display: flex;
+    border-bottom: 1px solid #eee; }
+    section .nav-list li {
+      padding: .1rem .08rem;
+      text-align: center;
+      font-size: .14rem; }
+    section .nav-list .bgli {
+      font-weight: bold;
+      color: #f1333f;
+      font-size: .15rem; }
+  section .xin {
+    display: flex;
+    flex-direction: column; }
+    section .xin dl {
+      display: flex;
+      width: 96%;
+      padding: .05rem 0;
+      margin: 0 2%;
+      border-bottom: 1px solid #eee; }
+      section .xin dl dd {
+        flex: 2;
+        position: relative; }
+        section .xin dl dd h3 {
+          font-size: .14rem; }
+        section .xin dl dd p {
+          position: absolute;
+          left: .05rem;
+          bottom: 3%;
+          color: #ccc; }
+        section .xin dl dd span {
+          position: absolute;
+          right: .05rem;
+          bottom: 3%;
+          color: #ccc; }
+        section .xin dl dd .p {
+          color: #8fb3d3;
+          padding: .02rem .04rem;
+          border: 1px solid #8fb3d3;
+          border-radius: 2px; }
+      section .xin dl dt {
+        flex: 1;
+        height: auto; }
+        section .xin dl dt img {
+          width: 90%;
+          margin: 0 5%; }
+
+footer {
+  height: .45rem;
+  border-top: 1px solid #ccc; }
+  footer .ft-list {
+    display: flex; }
+    footer .ft-list li {
+      width: 20%;
+      text-align: center; }
+      footer .ft-list li a {
+        display: flex;
+        flex-direction: column; }
+        footer .ft-list li a i {
+          font-size: .2rem;
+          line-height: .25rem; }
+    footer .ft-list .bg a {
+      color: #f1333f; }
+      footer .ft-list .bg a i {
+        color: #f1333f; }
+
+/*# sourceMappingURL=style.css.map */

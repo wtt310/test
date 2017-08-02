@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minmum-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+	<title>Document</title>
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+  	<div class="form">
+  		<input type="text" placeholder="再次输入要翻译的文本" class="txt">
+        <i class="iconfont">&#xe62f;</i>
+  		<i class="iconfont">&#xe62b;</i>
+  	</div>
+  </header>
+  <section>
+  	<ul class="nav-list">
+  		<li>推荐</li>
+  		<li class="bgli">有声美文</li>
+  		<li>动听英乐</li>
+  		<li>双语悦读</li>
+  		<li>英语</li>
+  	</ul>
+  	<div class="xin">
+  		<dl>
+  			<dd>
+  				<h3>【每日一句】走，约饭去！</h3>
+  				<p>英语功夫</p>
+  				<span>34赞</span>
+  			</dd>
+  			<dt><img src="img/pic1.jpg" alt=""></dt>
+  		</dl>
+  		<dl>
+  			<dd>
+  				<h3>英语啪啪啪|中国人对老人6个最大的误解是？</h3>
+  				<p class="p">圈子</p>
+  				<span>25评论</span>
+  			</dd>
+  			<dt><img src="img/pic2.jpg" alt=""></dt>
+  		</dl>
+  		<dl>
+  			<dd>
+  				<h3>英语啪啪啪|中国人对老人6个最大的误解是？</h3>
+  				<p class="p">圈子</p>
+  				<span>25评论</span>
+  			</dd>
+  			<dt><img src="img/pic3.jpg" alt=""></dt>
+  		</dl>
+  		<dl>
+  			<dd>
+  				<h3>英语啪啪啪|中国人对老人6个最大的误解是？</h3>
+  				<p class="p">圈子</p>
+  				<span>25评论</span>
+  			</dd>
+  			<dt><img src="img/pic4.jpg" alt=""></dt>
+  		</dl>
+  		<dl>
+  			<dd>
+  				<h3>英语啪啪啪|中国人对老人6个最大的误解是？</h3>
+  				<p class="p">圈子</p>
+  				<span>25评论</span>
+  			</dd>
+  			<dt><img src="img/pic5.jpg" alt=""></dt>
+  		</dl>
+  		<dl>
+  			<dd>
+  				<h3>英语啪啪啪|中国人对老人6个最大的误解是？</h3>
+  				<p class="p">圈子</p>
+  				<span>25评论</span>
+  			</dd>
+  			<dt><img src="img/pic2.jpg" alt=""></dt>
+  		</dl>
+  	</div>
+  </section>
+  <footer>
+  	<ul class="ft-list">
+  		<li class="bg"><a href="#"><i class="iconfont">&#xe60f;</i><span>词典</span></a></li>
+  		<li><a href="#"><i class="iconfont">&#xe64e;</i><span>翻译</span></a></li>
+  		<li><a href="#"><i class="iconfont">&#xe65c;</i><span>精品课</span></a></li>
+  		<li><a href="#"><i class="iconfont">&#xe63e;</i><span>发现</span></a></li>
+  		<li><a href="#"><i class="iconfont">&#xe62e;</i><span>我的</span></a></li>
+  	</ul>
+  </footer>
+  <script src="js/zepto.min.js"></script>
+  <script>
+    
+    $(".ft-list").on("click","li",function(){
+       $(this).addClass("bg").siblings().removeClass("bg");
+    })
+    $(".nav-list").on("click","li",function(){
+       $(this).addClass("bgli").siblings().removeClass("bgli");
+    })
+
+
+  </script>
+</body>
+</html>
